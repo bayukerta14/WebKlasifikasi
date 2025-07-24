@@ -7,7 +7,7 @@ import tensorflow as tf
 from pyngrok import ngrok
 
 # === Konfigurasi ===
-MODEL_PATH = '/content/MobilenetV2_Model.keras'
+MODEL_PATH = './models/MobilenetV2_Model.keras'
 CLASS_NAMES = ['Bacterial leaf blight', 'Blast', 'Brownspot', 'Healthy']
 IMG_SIZE = 224
 UPLOAD_FOLDER = 'static/uploads'
